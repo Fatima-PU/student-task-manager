@@ -9,3 +9,26 @@ body {
   margin: 40px auto;
   padding: 0 16px;
 }
+
+/* Task form layout */
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 16px 0;
+}
+
+.task-form input,
+.task-form textarea {
+  padding: 8px;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.task-form button {
+  padding: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
